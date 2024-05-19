@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "joke",
+    "slug": "joke",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/comedy-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/joking-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vasanthakumar.joke"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/comedy-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vasanthakumar_kathiresan.joke"
+    },
+    "web": {
+      "favicon": "./assets/comedy-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e81dfd5-8e10-42aa-9da2-2e68c4f8bcbe"
+      }
+    }
+  }
+}
